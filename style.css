@@ -313,3 +313,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+
+.div-footer {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #94CF1D;
+}
+
+.titulo-footer {
+    margin-top: 0.4rem;
+    color: var(--branco);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
