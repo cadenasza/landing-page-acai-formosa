@@ -9,16 +9,15 @@ body {
     font-family: var(--fonte-principal);
 }
 
-
 .acai-navbar {
     width: 100%;
-    height: 20vh;
+    height: 16vh;
     background-color: var(--roxo-backgroun);
 }
 
 .img-acai-logo{
     width: 80%;
-    height: 15vh;
+    height: 12vh;
 }
 .img-acai-logo:hover {
     transform: scale(1.1);
@@ -48,4 +47,269 @@ body {
 .icone:hover {
     color: var(--verde);
     border: none;
+}
+
+.navbar-toggler {
+    color: #000;
+    background-color: #819B34;
+}
+
+.div-rede-social {
+    display: flex;
+    margin-left: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    color: var(--branco);
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+    
+}
+
+.link-cardapio {
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 600;
+    padding:0.9rem 1.5rem;
+    background-color: var(--verde);
+    border-radius: 18px;
+}
+
+.icone-seta {
+    color: var(--branco);
+    margin-left: 0.5rem;
+}
+
+.link-cardapio:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    font-size: 1.1rem;
+    border: 2px solid var(--verde);
+}
+
+.imagem-acai {
+    width: 100%;
+    border-radius:10px ;
+    margin-top: 5rem;
+}
+
+.container-texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    color: var(--verde);
+    font-size: 1rem;
+    text-align: left;
+}
+
+.titulo {
+    color: var(--roxo-fonte);
+    font-weight: 800;
+    padding: 0.6rem 0;
+}
+
+.paragrafo {
+    font-weight: 300;
+    padding: 0.4rem 0;
+}
+
+.textos-secundarios {
+    display: flex;
+    margin-top: 2rem;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.textos-1 {
+    width: 50%;
+    color: var(--roxo-fonte);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+.link-historia {
+    margin-top: 0.8rem;
+    text-decoration: none;
+    color: var(--branco);
+    padding: 0.5rem 1.2rem;
+    background-color: var(--roxo-backgroun);
+    border-radius: 16px;
+    font-size: 1.1rem;
+}
+
+.link-historia:hover {
+    background-color: transparent;
+    color: var(--roxo-fonte);
+    border: 2px solid var(--roxo-backgroun);
+}
+
+.container-section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:80vh ;
+    background-color: rgb(253, 244, 244);
+    border-radius: 18px;
+}
+
+.texto-section-2 {
+    color: var(--verde);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.titulo-section-2 {
+    color: var(--roxo-fonte);
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.img-card {
+    width: 100%;
+    height: 30vh;
+    opacity: .5;
+}
+
+.textos-card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.link-card {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.card:hover {
+    opacity: .6;
+}
+
+.fundo-section-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(to right, #881682,#691265 ,#530E4F ,#581155) ;
+    border-radius: 16px;
+    min-height: 35vh;
+    width: 75%;
+}
+
+.texto-section-3 {
+    text-align: center;
+    color: var(--branco);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.titulo-section-3 {
+    color: var(--branco);
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.btn-section-3 {
+    background-color: var(--verde);
+    color: var(--branco);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.btn-section-3:hover {
+    background-color: var(--branco);
+    color: var(--verde);
+}
+
+.form-control::placeholder {
+    color: #881682;
+}
+
+.container-texto {
+    display: flex;
+    align-items: center;
+}
+
+.container-section-4-textos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.titulo-4 {
+    color: var(--roxo-fonte);
+    font-weight: 800;
+    padding: 0.3rem 0;
+}
+
+.texto-4 {
+    color: var(--verde);
+    font-size: 1rem;
+}
+
+.paragrafo-4 {
+    font-weight: 300;
+    padding: 0.4rem 0;
+}
+
+.container-beneficios-1 {
+    display: flex;
+    margin-top: 5rem;
+    padding-top: 4rem;
+    justify-content: center;
+}
+
+.container-beneficios-2 {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.titulo-container-beneficios {
+    color: var(--roxo-fonte);
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.texto-container-beneficios {
+    font-weight: 300;
+    font-size: 0.9rem;
+    padding:0 1rem;
+    text-align: center;
+}
+
+.container-section-4 {
+    background-color:rgb(253, 244, 244);
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
