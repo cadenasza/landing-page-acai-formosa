@@ -271,11 +271,12 @@ body {
     color: var(--roxo-fonte);
     font-weight: 800;
     padding: 0.3rem 0;
+    font-size: 2rem;
 }
 
 .texto-4 {
     color: var(--verde);
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .paragrafo-4 {
@@ -288,6 +289,7 @@ body {
     margin-top: 5rem;
     padding-top: 4rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container-beneficios-2 {
@@ -297,7 +299,7 @@ body {
 
 .titulo-container-beneficios {
     color: var(--roxo-fonte);
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     padding: 0.5rem;
     font-weight: 600;
     text-align: center;
@@ -305,7 +307,7 @@ body {
 
 .texto-container-beneficios {
     font-weight: 300;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     padding:0 1rem;
     text-align: center;
 }
